@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Journey</title>
+        <link rel="shortcut icon" href="img/ictdoor.png" type="image">
+        <!-- Bootstrap -->
+        <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+        <!-- Font Awsesome -->
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/fontawesome.min.css">
+
+        <!--==================== swiper css ====================-->
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+        
+        <!-- Style  -->
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        
+        
+    </head>
+    <body>
+        <!--==================== Header ====================-->
+        <header class="header" id="header">
+            <nav class=" nav container ">
+                <a href="" class="nav_logo">Journey</a>
+                <div class="nav_menu" id="nav_menu">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link active-link">Home</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#about" class="nav_link">About</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#discover" class="nav_link">Discover</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#place" class="nav_link">Place</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="far fa-moon change-theme" id="theme-button"></i>
+                    </div>
+                    <i class="fas fa-times nav_close" id="nav_close"></i>
+                </div>
+                <div class="nav_toggle" id="nav_toggle">
+                    <i class="fas fa-sliders-h"></i>
+                </div>
+                
+            </nav>
+        </header>
+        
+        <main class="main">
+            <!-- =====================home=================== -->
+            <section class="home" id="home">
+                <img src="img/home1.jpg" alt="" class="home__img">
+                <div class="home_container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">
+                            Find your fantasy
+                        </span>
+                        <h1 class="home__data-title">Choose Your <br> Perfect and <b> Beautiful <br> Beaches</b></h1>
+                        <a href="#" class="button">Expansion</a>
+                    </div>
+                    <div class="home_social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            <i class="fab fa-instagram-square"></i>
+                        </a>
+                        <a href="https://www.twitter.com/" target="_blank" class="home__social-link">
+                            <i class="fab fa-twitter-square"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/" target="_blank" class="home__social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <div class="home__info">
+                        <div>
+                            <span class="home_info-title">10 Beautiful place for tour</span>
+                            <a href="" class="button button--flex button--link home__info-button">More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                        <div class="home__info-overlay">
+                            <img src="img/home2.jpg" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- =====================about=================== -->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="about__title section__title"> More Information  <br> aboth the beast Beach</h2>
+                        <p class="about__discription">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse doloribus molestiae nihil sequi adipisci libero delectus itaque assumenda saepe. Est vitae cupiditate debitis qui repellendus.</p>
+                        <a href="#" class="button">Reserve a place</a>
+                    </div>
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="img/about1.jpg" alt="" class="about__img-one">
+                        </div>
+                        <div class="about__img-overlay">
+                            <img src="img/about2.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- =====================discover=================== -->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Discover the most <br> attractive places</h2>
+                <div class="dicover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!-- =====================discover 1=================== -->
+                        <div class="discover__card swiper-slide">
+                            <img src="img/discover1.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Bail</h2>
+                                <span class="discover__discription">24 tours abailable</span>
+                            </div>
+                        </div>
+                        <!-- =====================discover 2=================== -->
+                        <div class="discover__card swiper-slide">
+                            <img src="img/discover2.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Hawaii</h2>
+                                <span class="discover__discription">15 tours abailable</span>
+                            </div>
+                        </div>
+                        <!-- =====================discover 3=================== -->
+                        <div class="discover__card swiper-slide">
+                            <img src="img/discover3.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Havar</h2>
+                                <span class="discover__discription">18 tours abailable</span>
+                            </div>
+                        </div>
+                        <!-- =====================discover 4=================== -->
+                        <div class="discover__card swiper-slide">
+                            <img src="img/discover4.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">whitehaven</h2>
+                                <span class="discover__discription">32 tours abailable</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- =====================experience start =================== -->
+            <section class="experience section">
+                <h2 class="section__title">with our exprience <br> we will serve you </h2>
+                <div class="experience__container container grid">
+                    <div class="exprience__contnt grid">
+                        <div class="experience__data">
+                            <h2 class="experience__number">20</h2>
+                            <span class="experience__description">Year <br>Experience</span>
+
+                        </div>
+                        <div class="experience__data">
+                            <h2 class="experience__number">75</h2>
+                            <span class="experience__description">Complete <br>tours</span>
+
+                        </div>
+                        <div class="experience__data">
+                            <h2 class="experience__number">650+</h2>
+                            <span class="experience__description">Tourest <br>Destination</span>
+                        </div>
+                    </div>
+                    <div class="exprience__img grid">
+                        <div class="exprience__overlay">
+                            <img src="img/experience1.jpg" alt="" class="exprience__img-one">
+                        </div>
+                        <div class="exprience__overlay">
+                            <img src="img/experience2.jpg" alt="" class="exprience__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- =====================experience end =================== -->
+
+
+            <!-- =====================video start =================== -->
+            <section class="video section">
+                <h2 class="section__title">Video Tour</h2>
+                <div class="video__container container">
+                    <p class="video__discription">Find out more with our video of the most pleasent places for you and tyour family</p>
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="video/video.mp4" type="video/mp4">
+                        </video>
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="far fa-play-circle video_button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <!-- =====================video end =================== -->
+
+
+            <!-- =====================place start =================== -->
+            <section class="place section" id="place">
+                <h2 class="section__title">Choose Your Place</h2>
+                <div class="place__container container grid">
+                     <!-- =====================Place card 1 =================== -->
+                     <div class="place__card">
+                         <img src="img/place1.jpg" alt="" class="place__img">
+
+                         <div class="place__content">
+                             <span class="place__rating">
+                                 <i class="far fa-star place__rating-icon"></i>
+                                 <span class="place__rating-number">4,8</span>
+                             </span>
+
+                             <div class="place__data">
+                                 <h3 class="place__title">Roha</h3>
+                                     <span class="place__subtitle">Indonesia</span>
+                                     <span class="place__price">$2000</span>
+                                 
+                             </div>
+                         </div>
+                         <button class="button button--flex place__button">
+                              <i class="fas fa-arrow-right place__rating-icon"></i>
+                         </button>
+                     </div>
+                     <!-- =====================Place card 2 =================== -->
+                     <div class="place__card">
+                         <img src="img/place2.jpg" alt="" class="place__img">
+
+                         <div class="place__content">
+                             <span class="place__rating">
+                                 <i class="far fa-star place__rating-icon"></i>
+                                 <span class="place__rating-number">4,9</span>
+                             </span>
+
+                             <div class="place__data">
+                                 <h3 class="place__title">Cox's Bazar</h3>
+                                     <span class="place__subtitle">Bangladesh</span>
+                                     <span class="place__price">$1500</span>
+                                 
+                             </div>
+                         </div>
+                         <button class="button button--flex place__button">
+                              <i class="fas fa-arrow-right place__rating-icon"></i>
+                         </button>
+                     </div>
+                     <!-- =====================Place card 3 =================== -->
+                     <div class="place__card">
+                         <img src="img/place3.jpg" alt="" class="place__img">
+
+                         <div class="place__content">
+                             <span class="place__rating">
+                                 <i class="far fa-star place__rating-icon"></i>
+                                 <span class="place__rating-number">4,7</span>
+                             </span>
+
+                             <div class="place__data">
+                                 <h3 class="place__title">QuaKata</h3>
+                                     <span class="place__subtitle">Baghladesh</span>
+                                     <span class="place__price">$1750</span>
+                                 
+                             </div>
+                         </div>
+                         <button class="button button--flex place__button">
+                              <i class="fas fa-arrow-right place__rating-icon"></i>
+                         </button>
+                     </div>
+                     <!-- =====================Place card 4 =================== -->
+                     <div class="place__card">
+                         <img src="img/place4.jpg" alt="" class="place__img">
+
+                         <div class="place__content">
+                             <span class="place__rating">
+                                 <i class="far fa-star place__rating-icon"></i>
+                                 <span class="place__rating-number">5</span>
+                             </span>
+
+                             <div class="place__data">
+                                 <h3 class="place__title">Ranga Mati</h3>
+                                     <span class="place__subtitle">Bangladesh</span>
+                                     <span class="place__price">$1800</span>
+                                 
+                             </div>
+                         </div>
+                         <button class="button button--flex place__button">
+                              <i class="fas fa-arrow-right place__rating-icon"></i>
+                         </button>
+                     </div>
+                     <!-- =====================Place card 5 =================== -->
+                     <div class="place__card">
+                         <img src="img/place5.jpg" alt="" class="place__img">
+
+                         <div class="place__content">
+                             <span class="place__rating">
+                                 <i class="far fa-star place__rating-icon"></i>
+                                 <span class="place__rating-number">4,9</span>
+                             </span>
+
+                             <div class="place__data">
+                                 <h3 class="place__title">Ladakh</h3>
+                                     <span class="place__subtitle">India</span>
+                                     <span class="place__price">$2500</span>
+                                 
+                             </div>
+                         </div>
+                         <button class="button button--flex place__button">
+                              <i class="fas fa-arrow-right place__rating-icon"></i>
+                         </button>
+                     </div>
+                </div>
+            </section>
+            <!-- =====================place end =================== -->
+
+            <!-- =====================Subscribe start =================== -->
+            <section class="subscribe section">
+                <div class="subscribe__bg">
+                    <div class="subscribe__container container">
+                        <h2 class="section__title subscribe__title">Subscribe our <br> Newsletter</h2>
+                        <p class="subscribe__description">Subscribe to your newsletter and get a special 30% offer</p>
+
+                        <form action="" class="subscrie__form">
+                            <input type="text" placeholder="Enter Email" class="subscribe__input">
+
+                            <button class="button">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <!-- =====================Subscribe end =================== -->
+
+
+
+            <!-- =====================sponsor start =================== -->
+            <section class="sponsor section">
+                <div class="sponsor__container container grid">
+                    <div class="sponsor__content">
+                        <img src="img/sponsors1.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="img/sponsors2.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="img/sponsors3.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="img/sponsors4.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="img/sponsors5.png" alt="" class="sponsor__img">
+                    </div>
+                </div>
+            </section>
+            <!-- =====================sponsor end =================== -->
+
+
+            
+            <!-- =====================footer start =================== -->
+            <section class="footer section">
+                <div class="footer__container container grid">
+                    <div class="footer__content grid">
+                        <div class="footer__data">
+                            <h3 class="footer__title">Travel</h3>
+                            <p class="footer__discription">Travel you choose the <br> distiantion, we offer you the <br>exprience</p>
+
+                            <div>
+                                <a href="https://www.facebook.com/" target="__blank" class="footer__social">
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                                <a href="https://www.instagram.com/" target="__blank" class="footer__social">
+                                    <i class="fab fa-instagram-square"></i>
+                                </a>
+                                <a href="https://www.twitter.com/" target="__blank" class="footer__social">
+                                    <i class="fab fa-twitter-square"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/" target="__blank" class="footer__social">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer__data">
+                            <h3 class="footer__subtitle">About </h3>
+
+                            <ul>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">About Us</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">Features</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">News & Blog</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__data">
+                            <h3 class="footer__subtitle">Company </h3>
+
+                            <ul>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">Trams</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">Plan & Pricing</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link"> Become a member</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__data">
+                            <h3 class="footer__subtitle">Support </h3>
+
+                            <ul>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">FAQ's</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">Support Center</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">Contuct</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__rights">
+                        <p class="footer__copy">&#169; 2021 Sadiqur Rahaman. All rigths reserved</p>
+                        <div class="footer__terms">
+                            <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                            <a href="#" class="footer__terms-link">Privacy Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- =====================footer end =================== -->
+
+
+            <!-- =====================scroll up =================== -->
+            <a href="#" class="scrollup" id="scroll-up">
+                <i class="fas fa-arrow-up scrollup__icon"></i>
+            </a>
+        </main>
+        
+        <!--=============== SCROLL REVEL JS ===============-->
+        <script src="js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="js/swiper-bundle.min.js"></script>
+
+        <!--=============== Bootstrap js ===============-->
+        <!--  <script src="js/bootstrap.bundle.min.js"></script> -->
+        <!--=============== MAIN JS ===============-->
+        <script src="js/main.js"></script>
+    </body>
+</html>
